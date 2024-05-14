@@ -74,8 +74,8 @@ This study is based on openly accessible data hosted on OpenNeuro.
 
 You can download the data here: 
 
-Richardson et al., 2018: https://openneuro.org/datasets/ds000228/versions/1.1.0
-CCC: https://openneuro.org/datasets/ds003798
+- Richardson et al., 2018: https://openneuro.org/datasets/ds000228/versions/1.1.0
+- CCC: https://openneuro.org/datasets/ds003798
 
 
 ## Requirements:
