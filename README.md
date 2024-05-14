@@ -9,7 +9,7 @@ If you'd like to reproduce the presented analyses, you can run the following scr
 
 - **1. /scripts/contrasts/<sample_name>/firstlevel_contrast.py:** These scripts generate first-level contrast maps for the contrast ToM > pain for each sample (Richardson adults, CCC adults, and children).
     _Expected outputs_: First-level contrast maps for each subject
-      _Expected runtime_: ~1 day per sample
+      _Expected runtime_: ~1 hour per sample
 
 - **2. /scripts/cereb_isolation/cereb_isolation.m:** This script isolates the anatomical and first-level contrast functional images from the cerebral cortex and normalizes them to SUIT space for each sample.
     _Expected outputs_: Isolated and normalized cerebellum from T1-weighted and first-level contrast functional images for each subject
@@ -25,15 +25,15 @@ If you'd like to reproduce the presented analyses, you can run the following scr
 
 - **1. /scripts/seed_to_voxel/first_level/<sample_name>_firstlevel_stv.py:** These scripts generate first-level seed-to-voxel functional connectivity maps for Richardson adults and children.
     _Expected outputs_: First-level seed-to-voxel functional connectivity maps for each subject
-      _Expected runtime_: ~1 day per sample
+      _Expected runtime_: ~1-2 hours per sample
 
 - **2. /scripts/seed_to_voxel/one_sample/one_sample_stv.py:** This script generates second-level seed-to-voxel functional connectivity maps for children (one-sample t-tests).
     _Expected outputs_: Second-level one-sample t-test maps for children (Outputs for each seed in: 'results_and_figures/seed_to_voxel/<seed_name>')
-      _Expected runtime_: ~15-30 minutes
+      _Expected runtime_: ~5-10 minutes
 
 - **3. /scripts/seed_to_voxel/two_sample/two_sample_stv.py:** This script generates second-level seed-to-voxel functional connectivity maps for children with vs. withput ToM abilities, and children vs. adults (two-sample t-tests).
     _Expected outputs_: Second-level two-sample t-test maps for adults and children (Outputs for each seed in: 'results_and_figures/seed_to_voxel/<seed_name>')
-      _Expected runtime_: ~15-30 minutes
+      _Expected runtime_: ~5-10 minutes
 
 <img width="461" alt="Screen Shot 2024-05-14 at 4 35 56 pm" src="https://github.com/kmanoli/DevCerebToM/assets/44278225/add251a3-f8ce-411b-b889-3deb7f9da5ac">
 
@@ -41,11 +41,11 @@ If you'd like to reproduce the presented analyses, you can run the following scr
 
 - **1. /scripts/DCM/ROI_definition/<sample_name>/SPM_firstlevel.m:** These scripts generate first-level contrast maps for the contrast ToM > pain for each sample (Richardson adults, CCC adults, and children). This is a precursor for ROI definition and DCM analyses (as we need the SPM_results.mat file for each subject). In the case of CCC adults, we have included a script to smooth the data for consistency with the Richardson dataset ('/scripts/DCM/ROI_definition/adults_ccc/smooth.m')
     _Expected outputs_: First-level contrast maps for each subject
-      _Expected runtime_: ~1 day per sample
+      _Expected runtime_: ~1-2 hours per sample
 
 - **2. /scripts/DCM/ROI_definition/<sample_name>/roi_def.m:** These scripts generate ROIs for DCM analyses. Local maxima and further instructions for ROI definition are provided within the scripts.
     _Expected outputs_: ToM ROIs for each subject
-      _Expected runtime_: ~1 day per sample
+      _Expected runtime_: ~1-2 hours per sample
 
 - **3. /scripts/DCM/run_DCM/run_DCM.m:** This script runs first-level DCM analysis. Further instructions are provided within the script.
     _Expected outputs_: First-level DCM matrices for each subject
@@ -60,13 +60,13 @@ If you'd like to reproduce the presented analyses, you can run the following scr
 ### D. Figures
 
 - **1. /results_and_figures/contrast_flatmaps.ipynb:** This Jupyter notebook generates cerebellar flatmaps for second-level contrast analyses. 
-      _Expected runtime_: ~10 minutes
+      _Expected runtime_: ~5-10 minutes
 
 - **2. /results_and_figures/seed_to_voxel_figs.ipynb:** This Jupyter notebook generates cerebral cortex maps for second-level seed-to-voxel functional connectivity. 
-      _Expected runtime_: ~15 minutes
+      _Expected runtime_: ~10 minutes
 
 - **3. /results_and_figures/DCM_heatmaps.ipynb:** This Jupyter notebook generates heatmaps for second-level DCM results.
-      _Expected runtime_: ~10 minutes 
+      _Expected runtime_: ~5 minutes 
 
 
 ## Data:
