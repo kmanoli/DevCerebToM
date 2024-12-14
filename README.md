@@ -19,7 +19,7 @@ If you'd like to reproduce the presented analyses, you can run the following scr
     _Expected outputs_: Second-level one-sample t-tests for each sample ('results_and_figures/contrast_flatmaps/<sample_name>/one_sample_fdr.nii') or GLM ('results_and_figures/contrast_flatmaps/children/GLM_fdr.nii')
       _Expected runtime_: ~5-10 minutes per sample
 
-<img width="561" alt="Screen Shot 2024-12-14 at 11 30 52 pm" src="https://github.com/user-attachments/assets/c5ea15f5-7cc7-4cb5-a27f-de9d19af3398" />
+<img width="450" alt="Screen Shot 2024-12-14 at 11 30 52 pm" src="https://github.com/user-attachments/assets/c5ea15f5-7cc7-4cb5-a27f-de9d19af3398" />
 
 ### B. Seed-to-voxel functional connectivity
 
@@ -35,7 +35,7 @@ If you'd like to reproduce the presented analyses, you can run the following scr
     _Expected outputs_: Second-level two-sample t-test maps for adults and children (Outputs for each seed in: 'results_and_figures/seed_to_voxel/<seed_name>')
       _Expected runtime_: ~5-10 minutes
 
-<img width="608" alt="Screen Shot 2024-12-14 at 11 31 16 pm" src="https://github.com/user-attachments/assets/8078ae21-5c94-435a-bae3-c239200e9d12" />
+<img width="450" alt="Screen Shot 2024-12-14 at 11 31 16 pm" src="https://github.com/user-attachments/assets/8078ae21-5c94-435a-bae3-c239200e9d12" />
 
 ### C. Dynamic causal modelling
 
@@ -55,7 +55,7 @@ If you'd like to reproduce the presented analyses, you can run the following scr
     _Expected outputs_: Second-level DCM matrices for each sample (Output in tabular format in: 'results_and_figures/DCM_heatmaps/<sample_name>')
       _Expected runtime_: ~3-4 days per sample
 
-<img width="878" alt="Screen Shot 2024-12-14 at 11 30 01 pm" src="https://github.com/user-attachments/assets/8d643fa1-3194-434b-8d00-652bb3ed7476" />
+<img width="450" alt="Screen Shot 2024-12-14 at 11 30 01 pm" src="https://github.com/user-attachments/assets/8d643fa1-3194-434b-8d00-652bb3ed7476" />
 
 ### D. Figures
 
