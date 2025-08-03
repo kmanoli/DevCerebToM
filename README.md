@@ -1,6 +1,6 @@
 # Functional recruitment and connectivity of the cerebellum is associated with the emergence of Theory of Mind in early childhood
 
-## This repository contains scripts and data to reproduce analyses preprinted here: https://www.biorxiv.org/content/10.1101/2024.04.02.586955v1
+## This repository contains scripts and data to reproduce analyses published here: https://www.nature.com/articles/s41467-025-60523-9
 
 ## Instructions:
 If you'd like to reproduce the presented analyses, you can run the following scripts:
